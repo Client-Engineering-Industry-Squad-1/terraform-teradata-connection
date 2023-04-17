@@ -9,19 +9,10 @@ versions:
   providers:
     - name: azurerm
       source: "hashicorp/azurerm"
-  dependencies:
-    - id: sync
-      refs: []
-      interface: github.com/cloud-native-toolkit/automation-modules#sync
-      manualResolution: true
-      optional: true
+  dependencies: []
   variables:
     - name: region
       scope: global
     - name: resource_group_name
       alias: name
       scope: module
-    - name: sync
-      moduleRef:
-        id: sync
-        output: sync
