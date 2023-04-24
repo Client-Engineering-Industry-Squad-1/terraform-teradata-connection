@@ -1,5 +1,5 @@
 output "name" {
-  description = "The name of the Terraform Teradata connection"
+  description = "The name of the resource group"
   value       = var.resource_group_name
   depends_on  = [data.azurerm_resource_group.resource_group]
 }
