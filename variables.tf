@@ -1,6 +1,6 @@
 variable "resource_group_name" {
   type        = string
-  description = "The name of the Terraform Teradata connection"
+  description = "The name of the Teradata connection"
 }
 
 variable "provision" {
